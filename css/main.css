@@ -19,11 +19,20 @@ button {
     grid-area: btn;
 }
 
-input {
-    grid-area: inp
+button.remove {
+    margin: 10px;
 }
 
-p {
+input {
+    grid-area: inp;
+}
+
+.user-input { 
+    color: #FFA825;
+    font-size: 24px;
+}
+
+p.text-center {
     font-size: 36px;
     color: white;
     background-color: #449D44;
