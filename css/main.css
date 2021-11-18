@@ -1,0 +1,30 @@
+.container {
+    position: absolute;
+    top: 30vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+}
+
+.input-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "inp inp btn";
+}
+
+button {
+    grid-area: btn;
+}
+
+input {
+    grid-area: inp
+}
+
+p {
+    font-size: 36px;
+    color: white;
+    background-color: #449D44;
+}
