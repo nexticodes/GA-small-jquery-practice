@@ -11,3 +11,8 @@ $('button').on('click', function(e){
     // Reset value when added.
     $('input').val('');
 })
+
+$('.content').on('click', 'button', function(e){
+    const $clickedItem = $(this).closest('p');
+    $clickedItem.remove();
+})
